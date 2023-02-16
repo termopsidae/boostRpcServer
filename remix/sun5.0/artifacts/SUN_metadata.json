@@ -1,0 +1,131 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "holder",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "toAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Aspirated",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "AllPower",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "StoragePower",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "StaticPower",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "FlowPower",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AspiratedPower",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "SalvationalPower",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sun5.0/sun.sol": "SUN"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sun5.0/safemath.sol": {
+			"keccak256": "0x46b3dcb24f0450aaa98e27effca017e7ebe3bc8bb83a062c5d0eef491a106bd9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://75f1661dc6ea3a3573931d3a2c80f68b61e791e3a601ef76f1ec343f985796f3",
+				"dweb:/ipfs/QmVk6n7UNYGT5Kr4UPgcRufAVRA6Uv7NnKntz1gjPp7Sfz"
+			]
+		},
+		"sun5.0/sun.sol": {
+			"keccak256": "0x3a77606f875e07964a3cd9e8362600dca494d930934aad0dd60bc7657197dc39",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f78e9a0063fcf23de7b590f36056b8169723d8beed0227a6197a093b2b9a7f2f",
+				"dweb:/ipfs/QmQUrXvfbLM6aWFHfexFb7xbhd2SvNykfpa6Q9C7ZneKhX"
+			]
+		}
+	},
+	"version": 1
+}
